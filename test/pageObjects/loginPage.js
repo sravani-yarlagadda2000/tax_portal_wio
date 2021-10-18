@@ -107,7 +107,7 @@ async launchUrl(url) {
 }
 
 
-async Login()
+async Login(userName,password)
 {
 
         
@@ -115,7 +115,7 @@ async Login()
     console.log("isDisplayedmultiTenancyMicrosoftLoginUsername--"+isDisplayed); // outputs: false
     if(isDisplayed){
 
-          await this.multiTenancyMicrosoftLoginUsername.setValue('ussaasportalsvc@deloitte.com');
+          await this.multiTenancyMicrosoftLoginUsername.setValue(userName);
   
    }
    
@@ -133,7 +133,7 @@ async Login()
    if(isPasswordDisplayed){
        await  browser.pause(5000);
   
-             await this.multiTenancyMicrosoftLoginPassword.setValue('3_BPLr~wG#L)tvR*Q7w%<xeK');
+             await this.multiTenancyMicrosoftLoginPassword.setValue(password);
              await  browser.pause(10000);
    }
    let  deloitteSignInButtonIsDisplayed = await this.deloitteSignInButton.isDisplayed();
