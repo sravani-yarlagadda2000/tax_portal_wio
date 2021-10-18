@@ -23,6 +23,19 @@ exports.config = {
     specs: [
         './test/specs/**/loginTest.js'
     ],
+
+
+    suites :{
+
+       elements :[
+
+         //  './test/elements/*.js'
+             './test/specs/elements/*.js'
+
+        ]
+
+
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -94,7 +107,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.lambdatest.com/',
+    baseUrl: 'https://devopssaas-qa.apps.tax/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

@@ -1,17 +1,3 @@
-const { default: $ } = require("webdriverio/build/commands/browser/$");
-var config= require('./properties/config.js')
-
-
-//var microsoftLogin = "microsoft";
-var loginURL = config.applicationURL
-var userName = config.userName
-var password = config.password
-var clientName = config.clientName
-var module = config.module
-var location = config.location
-
-
-
 
 class LoginPage{
 
@@ -114,26 +100,54 @@ get locationNameAlreadySelected(){
 
 
 
-launchUrl(url)
+async launchUrl(url) {
+
+   await  browser.url(url);
+
+}
+
+
+async Login()
 {
 
-    browser.url(url);
+        
+    let isDisplayed = await this.multiTenancyMicrosoftLoginUsername.isDisplayed();
+    console.log("isDisplayedmultiTenancyMicrosoftLoginUsername--"+isDisplayed); // outputs: false
+    if(isDisplayed){
+
+          await this.multiTenancyMicrosoftLoginUsername.setValue('ussaasportalsvc@deloitte.com');
+  
+   }
+   
+   let  nextButtonIsDisplayed = await this.nextButton.isDisplayed();
+   console.log("isDisplayednextButtonIsDisplayed--"+nextButtonIsDisplayed); // outputs: false
+   if(nextButtonIsDisplayed){
+       await  browser.pause(5000);
+             await this.nextButton.click();
+             await  browser.pause(10000);
+     
+   }
+
+   let isPasswordDisplayed = await this.multiTenancyMicrosoftLoginPassword.isDisplayed();
+   console.log("isDisplayedisPasswordDisplayed--"+isPasswordDisplayed); // outputs: false
+   if(isPasswordDisplayed){
+       await  browser.pause(5000);
+  
+             await this.multiTenancyMicrosoftLoginPassword.setValue('3_BPLr~wG#L)tvR*Q7w%<xeK');
+             await  browser.pause(10000);
+   }
+   let  deloitteSignInButtonIsDisplayed = await this.deloitteSignInButton.isDisplayed();
+   console.log("isDisplayeddeloitteSignInButtonIsDisplayed--"+deloitteSignInButtonIsDisplayed); // outputs: false
+   if(deloitteSignInButtonIsDisplayed){
+       await  browser.pause(5000);
+             await this.deloitteSignInButton.click();
+             await  browser.pause(10000);
+   }
     
 }
 
 
-Login(userName,password, url)
-{
-
-        this.launchUrl(url)
-        this.userName.setValue(userName)
-        this.password.setValue(password)
-        this.signIn.click()
-    
 }
 
-
-}
-
-module.exports= new LoginPage()
+module.exports =new LoginPage()
 

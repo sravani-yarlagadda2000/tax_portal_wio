@@ -1,9 +1,19 @@
+
+
+//var loginPage=require('../pageObjects/LoginPage')
+
+
+
 describe('My Login application', function() {
     it('should login with valid credentials', async function() {
 
         
  
-        await  browser.url('https://devopssaas-qa.apps.tax/');
+       await  browser.url('https://devopssaas-qa.apps.tax/');
+     
+
+
+        
         // receive url
        // console.log(browser.getUrl());
        await  browser.pause(5000);
@@ -32,6 +42,7 @@ describe('My Login application', function() {
     }
     
     let  nextButtonIsDisplayed = await nextButton.isDisplayed();
+  
     console.log("isDisplayednextButtonIsDisplayed--"+nextButtonIsDisplayed); // outputs: false
     if(nextButtonIsDisplayed){
         await  browser.pause(5000);
