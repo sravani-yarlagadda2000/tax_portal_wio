@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635745038771' stop='1635745158786'>
+    <name>workflow Page </name>
+    <title>workflow Page </title>
+    <test-cases>
+        <test-case start='1635745038771' status='broken' stop='1635745158786'>
+            <name>create workflow </name>
+            <title>create workflow </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.54'/>
+            </parameters>
+            <steps>
+                <step start='1635745038772' status='broken' stop='1635745158786'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c9d63fdd-b534-4c01-b11b-2639162a8283-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1635745117724' status='broken' stop='1635745158786'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 120000ms exceeded. The execution in the test "workflow Page  create workflow " took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\test\specs\elements\WorkflowTest.js)</message>
+                <stack-trace>Error: Timeout of 120000ms exceeded. The execution in the test "workflow Page  create workflow " took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\test\specs\elements\WorkflowTest.js)
+                    at createTimeoutError (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
