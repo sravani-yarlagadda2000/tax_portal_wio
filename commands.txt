@@ -1,0 +1,41 @@
+Wbdriver IO Installation -
+java
+Node.js
+NPM 
+node -v 
+Npm -v 
+
+vs code 
+
+--npm init
+--npm install webdriverio --save-dev
+npm install @wdio/cli --save-dev
+npm install chai --save-dev
+npm install chai-webdriverio --save-dev
+npm install local-runner --save-dev
+npx wdio wdio.conf.js
+
+$ npx wdio wdio.conf.js --suite elements
+
+
+   beforeTest: function () {
+        const chai = require('chai')
+        const chaiWebdriver= require('chai-webdriverio').default
+        chai.use(chaiWebdriver(browser))
+        global.assert=chai.assert
+        global.should=chai.should
+		
+		
+		
+        global.expect=chai.expect
+    },
+	
+	------
+	
+	npm init –y
+	npm install @wdio/cli --save-dev
+	npx wdio config
+	
+	
+	npm run wdio wdio.conf.js 
+	
