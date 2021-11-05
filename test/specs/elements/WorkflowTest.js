@@ -17,12 +17,9 @@ describe('workflow Page ', function() {
     
           await $("=Workflows").click();
           await  browser.pause(5000);
+          await $()
      
    
-    
-    
-
-
     });
 
 

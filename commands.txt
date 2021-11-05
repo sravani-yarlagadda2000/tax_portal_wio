@@ -35,7 +35,5 @@ $ npx wdio wdio.conf.js --suite elements
 	npm init –y
 	npm install @wdio/cli --save-dev
 	npx wdio config
-	
-	
-	npm run wdio wdio.conf.js 
+	npm run wdio wdio.conf.js
 	
