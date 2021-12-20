@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640016864325' stop='1640016873912'>
+    <name>workflow Page </name>
+    <title>workflow Page </title>
+    <test-cases>
+        <test-case start='1640016864325' status='broken' stop='1640016873911'>
+            <name>create workflow </name>
+            <title>create workflow </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640016864327' status='passed' stop='1640016864510'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4a186b77-54a8-4d0b-b458-d19558b77281-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='e8b460b9-4c6b-4f1c-b1d0-1937f2cef823-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1640016864517' status='passed' stop='1640016868089'>
+                    <name>POST /session/:sessionId/element/96ffb825-42d1-441d-88fd-1deb1d59bf76/click</name>
+                    <title>POST /session/:sessionId/element/96ffb825-42d1-441d-88fd-1deb1d59bf76/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640016873110' status='passed' stop='1640016873882'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1afa97e7-b20d-49bf-bd8e-70a37a3b46fd-attachment.png' type='image/png' size='80570'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.findElement (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\node_modules\webdriverio\build\utils\index.js:245:11)
+                    at Browser.$ (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\node_modules\webdriverio\build\commands\browser\$.js:88:43)
+                    at Browser.wrapCommandFn (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:131:38)
+                    at Context.&lt;anonymous> (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\test\specs\elements\/WorkflowTest.js:20:11)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

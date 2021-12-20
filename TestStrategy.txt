@@ -1,0 +1,28 @@
+Test login 
+
+
+Frame work - POM 
+Webdriver IO POC. 
+
+Resources - 
+
+Annu Raj 
+Ann 
+Anjali 
+
+VS code 
+Repo - GIT 
+Devops - Himakar.
+Master - Restrict - Rizwana and Myself 
+
+
+Startegy 
+Login 
+BDM - cretae context - Page Creation 
+
+Workflow - Annu Raj - Page Creation and Test Creation 
+
+Reporting - Allure Report - Mocha Framework.  
+
+Estimations - 
+
