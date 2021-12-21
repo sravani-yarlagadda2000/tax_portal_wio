@@ -1,6 +1,6 @@
 const BasePage = require("./BasePage")
 
-class LoginPage extends BasePage{
+class LoginPage{
 
 //userName=$("input[name='userName']")
 
@@ -158,6 +158,16 @@ async Login(userName,password)
 }
 
 
+
+
+
+
+
+async acceptCookiePopupInPage() {
+
+    await this.acceptCookiePopup.click();
+ 
+ }
 
 
 
