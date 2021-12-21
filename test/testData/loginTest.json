@@ -2,9 +2,13 @@
 
 
     {
-
+            "applicatioUrl":"https://devopssaas-qa.apps.tax/",
             "username":"ussaasportalsvc@deloitte.com",
-             "password":"m8Xx~m*pKLt~IS#r~yQqKkc"
+             "password":"m8Xx~m*pKLt~IS#r~yQqKkc",
+             "client":"Release 11.3 Tenant",
+             "module":"Core Tax Topics",
+             "location":"Germany"
+
 
 
 

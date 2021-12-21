@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640093051876' stop='1640093051956'>
+    <name>workflow Page </name>
+    <title>workflow Page </title>
+    <test-cases>
+        <test-case start='1640093051877' status='passed' stop='1640093051955'>
+            <name>create workflow </name>
+            <title>create workflow </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640093051905' status='passed' stop='1640093051933'>
+                    <name>POST /session/:sessionId/element/260b2ad1-cd0a-400b-b32d-454c8de2ce18/click</name>
+                    <title>POST /session/:sessionId/element/260b2ad1-cd0a-400b-b32d-454c8de2ce18/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f45e05e9-9678-4f99-81e8-ebe5cdcc7e45-attachment.json' type='application/json' size='1081'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1640093051937' status='passed' stop='1640093051949'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b2dc932e-8e91-4c12-b9c1-16c0ce70ec48-attachment.json' type='application/json' size='106'/>
+                        <attachment title='Response' source='71437aed-1479-4405-be2c-8ee468b5beae-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1640093051951' status='undefined'>
+                    <name>GET /session/:sessionId/element/fd265243-b6c5-4688-a8d9-ccf4052d0757/text</name>
+                    <title>GET /session/:sessionId/element/fd265243-b6c5-4688-a8d9-ccf4052d0757/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='65a67148-1a4b-4546-8b4a-621cb8bbacd7-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

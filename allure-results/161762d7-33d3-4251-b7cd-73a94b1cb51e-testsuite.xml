@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640093427383' stop='1640093439037'>
+    <name>workflow Page </name>
+    <title>workflow Page </title>
+    <test-cases>
+        <test-case start='1640093427384' status='passed' stop='1640093439036'>
+            <name>create workflow </name>
+            <title>create workflow </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640093427384' status='passed' stop='1640093427408'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5d0dd577-b641-4aa9-835f-178a382ee617-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='a163047e-ba73-4d97-aca0-8f3348ba5a72-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1640093427410' status='passed' stop='1640093434020'>
+                    <name>POST /session/:sessionId/element/d76d9c0d-98ac-404c-be70-6a8e6bbcf4da/click</name>
+                    <title>POST /session/:sessionId/element/d76d9c0d-98ac-404c-be70-6a8e6bbcf4da/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,5 +1,9 @@
 
+var selectedLocation;
+
 class BasePage{
+
+    
 
     get acceptCookiePopup(){
 
@@ -16,7 +20,7 @@ class BasePage{
         return $("[title='Switch Client'] .fa")
     }
 
-    get selectClientDropdown(){
+    get selectClientDropdownButton(){
 
 
 
@@ -34,7 +38,7 @@ class BasePage{
 
 
 
-        return $("s2id_TaxProcessMod")
+        return $("#s2id_TaxProcessMod")
     }
 
 
@@ -84,6 +88,14 @@ class BasePage{
         return $("//*[@id='s2id_Jurisdiction']/ul/li[1]/div")
     }
 
+    get locationFilterInputField(){
+
+
+
+        return $("#s2id_Jurisdiction .select2-search-field")
+    }
+
+
 
 
     get acceptCookiePopup(){
@@ -103,26 +115,121 @@ class BasePage{
 
 
 
-     async changeModule() {
+
+     async switchClient() {
     
-        await this.acceptCookiePopup.click();
+        await this.switchClientButton.click();
+     
+     }
+
+
+     async selectClientDropdown() {
+    
+        await this.selectClientDropdownButton.click();
      
      }
 
 
 
-     
-     async changeLocation() {
+     async enterClientName(clientName) {
     
-        await this.acceptCookiePopup.click();
-     
-     }
+        
 
-
-
-
+         await    $("(//*[@class='select2-result-label'])[contains(text(),'"+clientName+"')]").click();
     }
+
+
+    async clientSubmit() {
     
-    module.exports =new BasePage()
+        
+
+        await    this.switchButton.click();
+   }
+
+
+
+   async clickModuleDropdown(){
+
+
+    await    this.moduleDropdown.click();
+
+
+   }
+    async selectModule(module){
+
+
+      await this.moduleDropdownInputField.setValue(module);
+
+
+
+   }
+
+   async submitModule(){
+
+
+    await this.moduleResult.click();
+
+
+
+ }
+
+
+
+ async clickOnShowFilterButton(){
+
+
+    await this.showFilterButton.click();
+
+
+
+ }
+
+
+
+
+
+ async chooseLocationFromFilters(location){
+
+
+    var result = this.locationNameAlreadySelected.getText();
+
+      if(result=='All'){
+
+           this.locationFilterInputField.click();
+           $("(.//div[@class='select2-result-label'])[contains(text(),'"+ location + "')]").click();
+
+
+        }else if(result==location){
+            console.log(result + " is already selected");
+            this.clickOnShowFilterButton();
+
+
+        }else if(result!==location){
+
+            this.locationFilterInputField.click();
+            $("(.//div[@class='select2-result-label'])[contains(text(),'"+ location + "')]").click();
+
+
+         }
+
+ }
+
+
+
+
+
+
+
+
+
+
+       
+     
+}
+
+
+  
+
+module.exports =new BasePage()
     
     

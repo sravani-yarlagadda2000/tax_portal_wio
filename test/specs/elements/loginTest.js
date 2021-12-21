@@ -9,25 +9,36 @@ let logintesdata=JSON.parse(fs.readFileSync('test/testData/loginTest.json'))
 
 describe('My Login application', function() {
 
-    logintesdata.forEach(({username,password })=> {
+    logintesdata.forEach(({applicatioUrl,username,password,client,module,location })=> {
         
     
     it('should login with valid credentials', async function() {
 
-        await loginPage.launchUrl('https://devopssaas-qa.apps.tax/')
- 
-       
+        await loginPage.launchUrl(applicatioUrl);
          await  browser.pause(5000);
        
          await browser.maximizeWindow();
 
 
          await loginPage.Login(username,password);
-         const isDisplayed = await $("#relatedInformationViewToolbar .ng-binding").isDisplayed()
+         const isDisplayed = await $("#relatedInformationViewToolbar .ng-binding").isDisplayed();
          await  browser.pause(5000);
          expectChai(isDisplayed).to.equal(true); // Chai assertion
 
          await basePage.acceptCookiePopupInPage();
+
+         await basePage.switchClient();
+         await basePage.selectClientDropdown();
+         await basePage.enterClientName(client);
+         await  basePage.clientSubmit();
+         await basePage.clickModuleDropdown();
+         await basePage.selectModule(module);
+         await basePage.submitModule();
+         await basePage.clickOnShowFilterButton();
+         await basePage.chooseLocationFromFilters(location);
+         await browser.pause(5000);
+
+         
 
    
      });
@@ -35,5 +46,4 @@ describe('My Login application', function() {
 });
 
 
-   
 });

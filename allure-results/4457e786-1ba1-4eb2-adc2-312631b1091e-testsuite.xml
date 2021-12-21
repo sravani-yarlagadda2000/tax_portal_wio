@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640084922645' stop='1640084933847'>
+    <name>workflow Page </name>
+    <title>workflow Page </title>
+    <test-cases>
+        <test-case start='1640084922645' status='broken' stop='1640084933847'>
+            <name>create workflow </name>
+            <title>create workflow </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640084922646' status='passed' stop='1640084933538'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='abfd73d8-72e6-436f-a551-f09ae18b1cd9-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1640084933567' status='broken' stop='1640084933847'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00496903+2517251]
+                	Ordinal0 [0x0042F8E1+2095329]
+                	Ordinal0 [0x00332848+1058888]
+                	Ordinal0 [0x0031BF90+966544]
+                	Ordinal0 [0x00378999+1345945]
+                	Ordinal0 [0x00385342+1397570]
+                	Ordinal0 [0x0037639B+1336219]
+                	Ordinal0 [0x003527A7+1189799]
+                	Ordinal0 [0x00353609+1193481]
+                	GetHandleVerifier [0x00625904+1577972]
+                	GetHandleVerifier [0x006D0B97+2279047]
+                	GetHandleVerifier [0x00526D09+534521]
+                	GetHandleVerifier [0x00525DB9+530601]
+                	Ordinal0 [0x00434FF9+2117625]
+                	Ordinal0 [0x004398A8+2136232]
+                	Ordinal0 [0x004399E2+2136546]
+                	Ordinal0 [0x00443541+2176321]
+                	BaseThreadInitThunk [0x75F9FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x76EC7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x76EC7A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
