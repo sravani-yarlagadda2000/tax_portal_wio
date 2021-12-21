@@ -15,18 +15,13 @@ describe('My Login application', function() {
     it('should login with valid credentials', async function() {
 
         await loginPage.launchUrl(applicatioUrl);
-         await  browser.pause(5000);
-       
-         await browser.maximizeWindow();
-
-
-         await loginPage.Login(username,password);
+        await  browser.pause(5000);
+        await browser.maximizeWindow();
+        await loginPage.Login(username,password);
          const isDisplayed = await $("#relatedInformationViewToolbar .ng-binding").isDisplayed();
          await  browser.pause(5000);
          expectChai(isDisplayed).to.equal(true); // Chai assertion
-
          await basePage.acceptCookiePopupInPage();
-
          await basePage.switchClient();
          await basePage.selectClientDropdown();
          await basePage.enterClientName(client);
