@@ -1,5 +1,6 @@
+const BasePage = require("./BasePage")
 
-class LoginPage{
+class LoginPage extends BasePage{
 
 //userName=$("input[name='userName']")
 
@@ -17,6 +18,7 @@ get deloitteSignInButton(){
 
 
 return $(".//span[@class='submit']")
+
 
 
 }
@@ -42,6 +44,7 @@ get switchClientButton(){
 
 
     return $("[title='Switch Client'] .fa")
+
 }
 
 get moduleDropdown(){
@@ -96,6 +99,14 @@ get locationNameAlreadySelected(){
     return $(".select2-drop-mask")
 }
 
+get acceptCookiePopup(){
+
+
+
+    return $("(//button[contains(text(),'Accept optional cookies')])[2]")
+}
+
+
 
 
 
@@ -145,6 +156,12 @@ async Login(userName,password)
    }
     
 }
+
+
+
+
+
+
 
 
 }

@@ -36,4 +36,5 @@ $ npx wdio wdio.conf.js --suite elements
 	npm install @wdio/cli --save-dev
 	npx wdio config
 	npm run wdio wdio.conf.js
-	
+	npm install wdio-chromedriver-service --save-dev
+    npm install chromedriver --save-dev
