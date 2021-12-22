@@ -22,7 +22,7 @@ describe('My Login application', function() {
          await  browser.pause(5000);
          expectChai(isDisplayed).to.equal(true); // Chai assertion
          await basePage.acceptCookiePopupInPage();
-         await basePage.switchClient();
+         await basePage.switchClient();     
          await basePage.selectClientDropdown();
          await basePage.enterClientName(client);
          await  basePage.clientSubmit();
