@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(.//div[@class='select2-result-label'])[contains(text(),'Germany')]\"}\n  (Session info: chrome=96.0.4664.110)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00496903+2517251]\n\tOrdinal0 [0x0042F8E1+2095329]\n\tOrdinal0 [0x00332848+1058888]\n\tOrdinal0 [0x0035D448+1233992]\n\tOrdinal0 [0x0035D63B+1234491]\n\tOrdinal0 [0x00387812+1406994]\n\tOrdinal0 [0x0037650A+1336586]\n\tOrdinal0 [0x00385BBF+1399743]\n\tOrdinal0 [0x0037639B+1336219]\n\tOrdinal0 [0x003527A7+1189799]\n\tOrdinal0 [0x00353609+1193481]\n\tGetHandleVerifier [0x00625904+1577972]\n\tGetHandleVerifier [0x006D0B97+2279047]\n\tGetHandleVerifier [0x00526D09+534521]\n\tGetHandleVerifier [0x00525DB9+530601]\n\tOrdinal0 [0x00434FF9+2117625]\n\tOrdinal0 [0x004398A8+2136232]\n\tOrdinal0 [0x004399E2+2136546]\n\tOrdinal0 [0x00443541+2176321]\n\tBaseThreadInitThunk [0x75F9FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76EC7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76EC7A6E+238]\n"
+}

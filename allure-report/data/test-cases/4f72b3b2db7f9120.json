@@ -1,0 +1,138 @@
+{
+  "uid" : "4f72b3b2db7f9120",
+  "name" : "create workflow ",
+  "fullName" : "workflow Page .create workflow ",
+  "historyId" : "aa1e9977cb425a94b95eb9c16dcb185b",
+  "time" : {
+    "start" : 1640066166694,
+    "stop" : 1640066171402,
+    "duration" : 4708
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a ng-href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\" class=\"ng-binding\" href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\">...</a> is not clickable at point (878, 22). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n                  (Session info: chrome=96.0.4664.110)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00796903+2517251]\n                \tOrdinal0 [0x0072F8E1+2095329]\n                \tOrdinal0 [0x00632848+1058888]\n                \tOrdinal0 [0x00663509+1258761]\n                \tOrdinal0 [0x00661868+1251432]\n                \tOrdinal0 [0x0065F65D+1242717]\n                \tOrdinal0 [0x0065E4A8+1238184]\n                \tOrdinal0 [0x00654037+1196087]\n                \tOrdinal0 [0x006764D3+1336531]\n                \tOrdinal0 [0x00653A36+1194550]\n                \tOrdinal0 [0x006765BA+1336762]\n                \tOrdinal0 [0x00685BBF+1399743]\n                \tOrdinal0 [0x0067639B+1336219]\n                \tOrdinal0 [0x006527A7+1189799]\n                \tOrdinal0 [0x00653609+1193481]\n                \tGetHandleVerifier [0x00925904+1577972]\n                \tGetHandleVerifier [0x009D0B97+2279047]\n                \tGetHandleVerifier [0x00826D09+534521]\n                \tGetHandleVerifier [0x00825DB9+530601]\n                \tOrdinal0 [0x00734FF9+2117625]\n                \tOrdinal0 [0x007398A8+2136232]\n                \tOrdinal0 [0x007399E2+2136546]\n                \tOrdinal0 [0x00743541+2176321]\n                \tBaseThreadInitThunk [0x779BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B07A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B07A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a ng-href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\" class=\"ng-binding\" href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\">...</a> is not clickable at point (878, 22). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n                  (Session info: chrome=96.0.4664.110)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00796903+2517251]\n                \tOrdinal0 [0x0072F8E1+2095329]\n                \tOrdinal0 [0x00632848+1058888]\n                \tOrdinal0 [0x00663509+1258761]\n                \tOrdinal0 [0x00661868+1251432]\n                \tOrdinal0 [0x0065F65D+1242717]\n                \tOrdinal0 [0x0065E4A8+1238184]\n                \tOrdinal0 [0x00654037+1196087]\n                \tOrdinal0 [0x006764D3+1336531]\n                \tOrdinal0 [0x00653A36+1194550]\n                \tOrdinal0 [0x006765BA+1336762]\n                \tOrdinal0 [0x00685BBF+1399743]\n                \tOrdinal0 [0x0067639B+1336219]\n                \tOrdinal0 [0x006527A7+1189799]\n                \tOrdinal0 [0x00653609+1193481]\n                \tGetHandleVerifier [0x00925904+1577972]\n                \tGetHandleVerifier [0x009D0B97+2279047]\n                \tGetHandleVerifier [0x00826D09+534521]\n                \tGetHandleVerifier [0x00825DB9+530601]\n                \tOrdinal0 [0x00734FF9+2117625]\n                \tOrdinal0 [0x007398A8+2136232]\n                \tOrdinal0 [0x007399E2+2136546]\n                \tOrdinal0 [0x00743541+2176321]\n                \tBaseThreadInitThunk [0x779BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B07A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B07A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1640066166695,
+        "stop" : 1640066166725,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7dc7da73a9be828f",
+        "name" : "Request",
+        "source" : "7dc7da73a9be828f.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "5b35ec369e4f850a",
+        "name" : "Response",
+        "source" : "5b35ec369e4f850a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/ba3f6f51-ac99-4181-b9db-278dda203f8f/click",
+      "time" : {
+        "start" : 1640066166729,
+        "stop" : 1640066171402,
+        "duration" : 4673
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x00796903+2517251]\n                \tOrdinal0 [0x0072F8E1+2095329]\n                \tOrdinal0 [0x00632848+1058888]\n                \tOrdinal0 [0x00663509+1258761]\n                \tOrdinal0 [0x00661868+1251432]\n                \tOrdinal0 [0x0065F65D+1242717]\n                \tOrdinal0 [0x0065E4A8+1238184]\n                \tOrdinal0 [0x00654037+1196087]\n                \tOrdinal0 [0x006764D3+1336531]\n                \tOrdinal0 [0x00653A36+1194550]\n                \tOrdinal0 [0x006765BA+1336762]\n                \tOrdinal0 [0x00685BBF+1399743]\n                \tOrdinal0 [0x0067639B+1336219]\n                \tOrdinal0 [0x006527A7+1189799]\n                \tOrdinal0 [0x00653609+1193481]\n                \tGetHandleVerifier [0x00925904+1577972]\n                \tGetHandleVerifier [0x009D0B97+2279047]\n                \tGetHandleVerifier [0x00826D09+534521]\n                \tGetHandleVerifier [0x00825DB9+530601]\n                \tOrdinal0 [0x00734FF9+2117625]\n                \tOrdinal0 [0x007398A8+2136232]\n                \tOrdinal0 [0x007399E2+2136546]\n                \tOrdinal0 [0x00743541+2176321]\n                \tBaseThreadInitThunk [0x779BFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B07A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B07A6E+238]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1640066171107,
+          "stop" : 1640066171401,
+          "duration" : 294
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c0dcea51ef143a65",
+          "name" : "Screenshot",
+          "source" : "c0dcea51ef143a65.png",
+          "type" : "image/png",
+          "size" : 181328
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "workflow Page "
+  }, {
+    "name" : "testClass",
+    "value" : "workflow Page "
+  }, {
+    "name" : "testMethod",
+    "value" : "create workflow "
+  }, {
+    "name" : "package",
+    "value" : "workflow Page "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f72b3b2db7f9120.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

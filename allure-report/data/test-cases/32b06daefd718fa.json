@@ -1,0 +1,112 @@
+{
+  "uid" : "32b06daefd718fa",
+  "name" : "create workflow ",
+  "fullName" : "workflow Page .create workflow ",
+  "historyId" : "aa1e9977cb425a94b95eb9c16dcb185b",
+  "time" : {
+    "start" : 1640088177752,
+    "stop" : 1640088187390,
+    "duration" : 9638
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1640088177752,
+        "stop" : 1640088177782,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22d5c0ec19dbf769",
+        "name" : "Request",
+        "source" : "22d5c0ec19dbf769.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "48e6dd12f78e1588",
+        "name" : "Response",
+        "source" : "48e6dd12f78e1588.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/703e95a6-712b-44ac-a359-70cdd208b16a/click",
+      "time" : {
+        "start" : 1640088177783,
+        "stop" : 1640088182387,
+        "duration" : 4604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "workflow Page "
+  }, {
+    "name" : "testClass",
+    "value" : "workflow Page "
+  }, {
+    "name" : "testMethod",
+    "value" : "create workflow "
+  }, {
+    "name" : "package",
+    "value" : "workflow Page "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32b06daefd718fa.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
