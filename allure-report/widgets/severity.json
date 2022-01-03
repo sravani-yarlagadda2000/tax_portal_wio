@@ -1,70 +1,20 @@
 [ {
-  "uid" : "76642d750fda8b2d",
+  "uid" : "3be3e610d205c04c",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1636644193800,
-    "stop" : 1636644247114,
-    "duration" : 53314
+    "start" : 1641211205932,
+    "stop" : 1641211280484,
+    "duration" : 74552
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "56cb7f00f693a13c",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1635746102110,
-    "stop" : 1635746170192,
-    "duration" : 68082
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "23f86a673363810c",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1634585243723,
-    "stop" : 1634585318561,
-    "duration" : 74838
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea91b7488a80cdeb",
+  "uid" : "215346e859b28d17",
   "name" : "create workflow ",
   "time" : {
-    "start" : 1641192819660,
-    "stop" : 1641192824968,
-    "duration" : 5308
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61bd849fa46d5e79",
-  "name" : "create workflow ",
-  "time" : {
-    "start" : 1634585318572,
-    "stop" : 1634585326229,
-    "duration" : 7657
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0ddf2ea58a58b16",
-  "name" : "create workflow ",
-  "time" : {
-    "start" : 1635746170217,
-    "stop" : 1635746180046,
-    "duration" : 9829
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b642343724dc18",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1641192743308,
-    "stop" : 1641192819631,
-    "duration" : 76323
+    "start" : 1641211280525,
+    "stop" : 1641211287817,
+    "duration" : 7292
   },
   "status" : "passed",
   "severity" : "normal"

@@ -5,71 +5,20 @@
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "23f86a673363810c",
+      "uid" : "3be3e610d205c04c",
       "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
       "status" : "passed",
       "time" : {
-        "start" : 1634585243723,
-        "stop" : 1634585318561,
-        "duration" : 74838
+        "start" : 1641211205932,
+        "stop" : 1641211280484,
+        "duration" : 74552
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 68,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "56cb7f00f693a13c",
-      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1635746102110,
-        "stop" : 1635746170192,
-        "duration" : 68082
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-95.0.4638.54" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "76642d750fda8b2d",
-      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1636644193800,
-        "stop" : 1636644247114,
-        "duration" : 53314
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-95.0.4638.69" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "9b642343724dc18",
-      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1641192743308,
-        "stop" : 1641192819631,
-        "duration" : 76323
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 24,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     } ],
     "uid" : "f43874cc36d1c5833cbb332fc53460ce"
@@ -77,54 +26,20 @@
     "name" : "workflow Page ",
     "children" : [ {
       "name" : "create workflow ",
-      "uid" : "61bd849fa46d5e79",
+      "uid" : "215346e859b28d17",
       "parentUid" : "d8e122064b567393ff0ec11f63cd58f3",
       "status" : "passed",
       "time" : {
-        "start" : 1634585318572,
-        "stop" : 1634585326229,
-        "duration" : 7657
+        "start" : 1641211280525,
+        "stop" : 1641211287817,
+        "duration" : 7292
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "create workflow ",
-      "uid" : "e0ddf2ea58a58b16",
-      "parentUid" : "d8e122064b567393ff0ec11f63cd58f3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1635746170217,
-        "stop" : 1635746180046,
-        "duration" : 9829
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-95.0.4638.54" ]
-    }, {
-      "name" : "create workflow ",
-      "uid" : "ea91b7488a80cdeb",
-      "parentUid" : "d8e122064b567393ff0ec11f63cd58f3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1641192819660,
-        "stop" : 1641192824968,
-        "duration" : 5308
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 24,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     } ],
     "uid" : "d8e122064b567393ff0ec11f63cd58f3"

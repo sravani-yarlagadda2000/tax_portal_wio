@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//*[@class='select2-result-label'])[contains(text(),'Release 11.3 Tenant')]"
-}

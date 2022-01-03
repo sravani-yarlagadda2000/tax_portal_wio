@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641211280524' stop='1641211287818'>
+    <name>workflow Page </name>
+    <title>workflow Page </title>
+    <test-cases>
+        <test-case start='1641211280525' status='passed' stop='1641211287817'>
+            <name>create workflow </name>
+            <title>create workflow </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1641211280525' status='passed' stop='1641211280549'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bbec69fa-6af2-4361-a682-684445c9d13a-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='0d242038-7ac9-4c8f-9df9-985034953dd2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641211280551' status='passed' stop='1641211282810'>
+                    <name>POST /session/:sessionId/element/4d9301ef-2296-4019-a5f9-abcc50127c41/click</name>
+                    <title>POST /session/:sessionId/element/4d9301ef-2296-4019-a5f9-abcc50127c41/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

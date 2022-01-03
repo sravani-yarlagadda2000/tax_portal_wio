@@ -43,3 +43,9 @@ $ npx wdio wdio.conf.js --suite elements
     allure generate allure-results ; allure open
 
     -------
+
+
+    By Default adding the report 
+
+    npm i allure-commandline
+    allure generate allure-results ; allure open

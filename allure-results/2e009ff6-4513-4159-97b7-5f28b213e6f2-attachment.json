@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div//input[@value='Next']\"}\n  (Session info: chrome=94.0.4606.81)",
-  "stacktrace": "Error initializing symbols (3221225476).  Dumping unresolved backtrace:\n\t00BCBDE3\n\t00B66661\n\t00A72438\n\t00A9C7DB\n\t00AC6712\n\t00AB571A\n\t00AC4ABF\n\t00AB55AB\n\t00A92104\n\t00A92F59\n\t00D52266\n\t00DFD4A7\n\t00C5718B\n\t00C56229\n\t00B6B79D\n\t00B6FB58\n\t00B6FC92\n\t00B79541\n\t7668FA29\n\t76F47A9E\n\t76F47A6E\n"
-}

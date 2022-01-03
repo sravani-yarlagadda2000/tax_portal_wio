@@ -7,9 +7,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     }
   }, {
     "uid" : "92d0688a9f9dbe36d871d52b92eba0db",
@@ -18,9 +18,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
     }
   } ]
 }
