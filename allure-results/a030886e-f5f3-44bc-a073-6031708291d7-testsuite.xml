@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642492241270' stop='1642492250705'>
+    <name>Workflow Scenarios</name>
+    <title>Workflow Scenarios</title>
+    <test-cases>
+        <test-case start='1642492241270' status='broken' stop='1642492250704'>
+            <name>Create Workflow</name>
+            <title>Create Workflow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642492246284' status='passed' stop='1642492246306'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='86f7829d-07f7-4d83-b659-188f164c9c2b-attachment.json' type='application/json' size='105'/>
+                        <attachment title='Response' source='7842747f-aba1-4658-97b7-3b6b70d97ad9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642492246309' status='broken' stop='1642492250704'>
+                    <name>POST /session/:sessionId/element/787081dc-8a1d-4544-b0f2-1eed4efaf87a/click</name>
+                    <title>POST /session/:sessionId/element/787081dc-8a1d-4544-b0f2-1eed4efaf87a/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642492250490' status='passed' stop='1642492250704'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='fbe57261-f2d7-4269-934a-77fe5345c456-attachment.png' type='image/png' size='193941'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;a ng-href="https://devopssaas2-qa.apps.tax/?redirectPage=workflow" class="ng-binding" href="https://devopssaas2-qa.apps.tax/?redirectPage=workflow">...&lt;/a> is not clickable at point (878, 22). Other element would receive the click: &lt;div class="onetrust-pc-dark-filter ot-fade-in" style="z-index:2147483645;">&lt;/div>
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00C96903+2517251]
+                	Ordinal0 [0x00C2F8E1+2095329]
+                	Ordinal0 [0x00B32848+1058888]
+                	Ordinal0 [0x00B63509+1258761]
+                	Ordinal0 [0x00B61868+1251432]
+                	Ordinal0 [0x00B5F65D+1242717]
+                	Ordinal0 [0x00B5E4A8+1238184]
+                	Ordinal0 [0x00B54037+1196087]
+                	Ordinal0 [0x00B764D3+1336531]
+                	Ordinal0 [0x00B53A36+1194550]
+                	Ordinal0 [0x00B765BA+1336762]
+                	Ordinal0 [0x00B85BBF+1399743]
+                	Ordinal0 [0x00B7639B+1336219]
+                	Ordinal0 [0x00B527A7+1189799]
+                	Ordinal0 [0x00B53609+1193481]
+                	GetHandleVerifier [0x00E25904+1577972]
+                	GetHandleVerifier [0x00ED0B97+2279047]
+                	GetHandleVerifier [0x00D26D09+534521]
+                	GetHandleVerifier [0x00D25DB9+530601]
+                	Ordinal0 [0x00C34FF9+2117625]
+                	Ordinal0 [0x00C398A8+2136232]
+                	Ordinal0 [0x00C399E2+2136546]
+                	Ordinal0 [0x00C43541+2176321]
+                	BaseThreadInitThunk [0x763AFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77A37A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77A37A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

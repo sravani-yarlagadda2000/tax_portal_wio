@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//li[contains(@class,'location-list-item')]/label[text()='United States']/preceding-sibling::input"
+}

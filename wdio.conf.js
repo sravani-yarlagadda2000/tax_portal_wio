@@ -246,7 +246,7 @@ exports.config = {
      * Function to be executed after a test (in Mocha/Jasmine).
      */
     afterTest: async function(test, context, { error, result, duration, passed, retries }) {
-        if (!passed) {
+        if (error) {
             await browser.takeScreenshot();
         }
     },

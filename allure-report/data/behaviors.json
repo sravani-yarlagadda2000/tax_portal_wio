@@ -2,38 +2,106 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "should login with valid credentials",
-    "uid" : "3be3e610d205c04c",
+    "name" : "create workflow ",
+    "uid" : "ddade1c36495fa2f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641211205932,
-      "stop" : 1641211280484,
-      "duration" : 74552
+      "start" : 1641223795066,
+      "stop" : 1641223803357,
+      "duration" : 8291
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-96.0.4664.110" ]
   }, {
-    "name" : "create workflow ",
-    "uid" : "215346e859b28d17",
+    "name" : "should login with valid credentials",
+    "uid" : "b0f4bb5258e1dd8b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641211280525,
-      "stop" : 1641211287817,
-      "duration" : 7292
+      "start" : 1641885475368,
+      "stop" : 1641885548044,
+      "duration" : 72676
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "Login Test",
+    "uid" : "59359b684212aed5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641910413260,
+      "stop" : 1641910491323,
+      "duration" : 78063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "Create Workflow",
+    "uid" : "6af7b853fda499cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1641910491379,
+      "stop" : 1641910611387,
+      "duration" : 120008
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-96.0.4664.110" ]
+  }, {
+    "name" : "Login Test",
+    "uid" : "725557031392dddb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642508818569,
+      "stop" : 1642508892114,
+      "duration" : 73545
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Create Workflow",
+    "uid" : "b2f8ce0bc3caf671",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642508892128,
+      "stop" : 1642508901654,
+      "duration" : 9526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
   } ]
 }

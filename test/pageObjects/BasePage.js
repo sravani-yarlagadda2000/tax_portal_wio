@@ -20,7 +20,7 @@ class BasePage{
         return $("[title='Switch Client'] .fa")
     }
 
-    get selectClientDropdownButton(){
+    get selectClientDropdownButton(){  
 
 
 

@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642488282691' stop='1642488359170'>
+    <name>Workflow Scenarios</name>
+    <title>Workflow Scenarios</title>
+    <test-cases>
+        <test-case start='1642488282691' status='broken' stop='1642488359165'>
+            <name>Create Workflow</name>
+            <title>Create Workflow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642488287696' status='broken' stop='1642488359165'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c8f292e-ee2b-4f8e-a9d5-ab1afa35d342-attachment.json' type='application/json' size='105'/>
+                    </attachments>
+                    <steps>
+                        <step start='1642488336432' status='broken' stop='1642488359165'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1642488359154' status='broken' stop='1642488359165'>
+                                    <name>DELETE /session/:sessionId</name>
+                                    <title>DELETE /session/:sessionId</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00C96903+2517251]
+                	Ordinal0 [0x00C2F8E1+2095329]
+                	Ordinal0 [0x00B32710+1058576]
+                	Ordinal0 [0x00B276A4+1013412]
+                	Ordinal0 [0x00B27EA8+1015464]
+                	Ordinal0 [0x00B29695+1021589]
+                	Ordinal0 [0x00B23686+996998]
+                	Ordinal0 [0x00B33A60+1063520]
+                	Ordinal0 [0x00B85382+1397634]
+                	Ordinal0 [0x00B7639B+1336219]
+                	Ordinal0 [0x00B527A7+1189799]
+                	Ordinal0 [0x00B53609+1193481]
+                	GetHandleVerifier [0x00E25904+1577972]
+                	GetHandleVerifier [0x00ED0B97+2279047]
+                	GetHandleVerifier [0x00D26D09+534521]
+                	GetHandleVerifier [0x00D25DB9+530601]
+                	Ordinal0 [0x00C34FF9+2117625]
+                	Ordinal0 [0x00C398A8+2136232]
+                	Ordinal0 [0x00C399E2+2136546]
+                	Ordinal0 [0x00C43541+2176321]
+                	BaseThreadInitThunk [0x763AFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77A37A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77A37A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

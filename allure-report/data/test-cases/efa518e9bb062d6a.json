@@ -1,0 +1,180 @@
+{
+  "uid" : "efa518e9bb062d6a",
+  "name" : "Create Workflow",
+  "fullName" : "Workflow Scenarios.Create Workflow",
+  "historyId" : "29d1a78b3153b951fc41c487f7d5804b",
+  "time" : {
+    "start" : 1641884895472,
+    "stop" : 1641884945923,
+    "duration" : 50451
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=96.0.4664.110)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00E26903+2517251]\n                \tOrdinal0 [0x00DBF8E1+2095329]\n                \tOrdinal0 [0x00CC2710+1058576]\n                \tOrdinal0 [0x00CEE324+1237796]\n                \tOrdinal0 [0x00CE4037+1196087]\n                \tOrdinal0 [0x00D064D3+1336531]\n                \tOrdinal0 [0x00CE3A36+1194550]\n                \tOrdinal0 [0x00D065BA+1336762]\n                \tOrdinal0 [0x00D15BBF+1399743]\n                \tOrdinal0 [0x00D0639B+1336219]\n                \tOrdinal0 [0x00CE27A7+1189799]\n                \tOrdinal0 [0x00CE3609+1193481]\n                \tGetHandleVerifier [0x00FB5904+1577972]\n                \tGetHandleVerifier [0x01060B97+2279047]\n                \tGetHandleVerifier [0x00EB6D09+534521]\n                \tGetHandleVerifier [0x00EB5DB9+530601]\n                \tOrdinal0 [0x00DC4FF9+2117625]\n                \tOrdinal0 [0x00DC98A8+2136232]\n                \tOrdinal0 [0x00DC99E2+2136546]\n                \tOrdinal0 [0x00DD3541+2176321]\n                \tBaseThreadInitThunk [0x75ACFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77177A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77177A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=96.0.4664.110)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00E26903+2517251]\n                \tOrdinal0 [0x00DBF8E1+2095329]\n                \tOrdinal0 [0x00CC2710+1058576]\n                \tOrdinal0 [0x00CEE324+1237796]\n                \tOrdinal0 [0x00CE4037+1196087]\n                \tOrdinal0 [0x00D064D3+1336531]\n                \tOrdinal0 [0x00CE3A36+1194550]\n                \tOrdinal0 [0x00D065BA+1336762]\n                \tOrdinal0 [0x00D15BBF+1399743]\n                \tOrdinal0 [0x00D0639B+1336219]\n                \tOrdinal0 [0x00CE27A7+1189799]\n                \tOrdinal0 [0x00CE3609+1193481]\n                \tGetHandleVerifier [0x00FB5904+1577972]\n                \tGetHandleVerifier [0x01060B97+2279047]\n                \tGetHandleVerifier [0x00EB6D09+534521]\n                \tGetHandleVerifier [0x00EB5DB9+530601]\n                \tOrdinal0 [0x00DC4FF9+2117625]\n                \tOrdinal0 [0x00DC98A8+2136232]\n                \tOrdinal0 [0x00DC99E2+2136546]\n                \tOrdinal0 [0x00DD3541+2176321]\n                \tBaseThreadInitThunk [0x75ACFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77177A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77177A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641884900487,
+        "stop" : 1641884900538,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e8a2f71543e595a",
+        "name" : "Request",
+        "source" : "9e8a2f71543e595a.json",
+        "type" : "application/json",
+        "size" : 105
+      }, {
+        "uid" : "35f40fd39f52d69a",
+        "name" : "Response",
+        "source" : "35f40fd39f52d69a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/24a888b9-9c59-4850-a9cb-d086b2f35049/click",
+      "time" : {
+        "start" : 1641884900542,
+        "stop" : 1641884914094,
+        "duration" : 13552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641884944104,
+        "stop" : 1641884944348,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9224c02891b60773",
+        "name" : "Request",
+        "source" : "9224c02891b60773.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "be6b86906169154b",
+        "name" : "Response",
+        "source" : "be6b86906169154b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/7b7e0e5c-6249-4d82-bc0a-0cdc2d558e05/click",
+      "time" : {
+        "start" : 1641884944349,
+        "stop" : 1641884945922,
+        "duration" : 1573
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x00E26903+2517251]\n                \tOrdinal0 [0x00DBF8E1+2095329]\n                \tOrdinal0 [0x00CC2710+1058576]\n                \tOrdinal0 [0x00CEE324+1237796]\n                \tOrdinal0 [0x00CE4037+1196087]\n                \tOrdinal0 [0x00D064D3+1336531]\n                \tOrdinal0 [0x00CE3A36+1194550]\n                \tOrdinal0 [0x00D065BA+1336762]\n                \tOrdinal0 [0x00D15BBF+1399743]\n                \tOrdinal0 [0x00D0639B+1336219]\n                \tOrdinal0 [0x00CE27A7+1189799]\n                \tOrdinal0 [0x00CE3609+1193481]\n                \tGetHandleVerifier [0x00FB5904+1577972]\n                \tGetHandleVerifier [0x01060B97+2279047]\n                \tGetHandleVerifier [0x00EB6D09+534521]\n                \tGetHandleVerifier [0x00EB5DB9+530601]\n                \tOrdinal0 [0x00DC4FF9+2117625]\n                \tOrdinal0 [0x00DC98A8+2136232]\n                \tOrdinal0 [0x00DC99E2+2136546]\n                \tOrdinal0 [0x00DD3541+2176321]\n                \tBaseThreadInitThunk [0x75ACFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77177A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77177A6E+238]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1641884945536,
+          "stop" : 1641884945919,
+          "duration" : 383
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5c0cdfaafc7365d0",
+          "name" : "Screenshot",
+          "source" : "5c0cdfaafc7365d0.png",
+          "type" : "image/png",
+          "size" : 164371
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Workflow Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "Workflow Scenarios"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create Workflow"
+  }, {
+    "name" : "package",
+    "value" : "Workflow Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efa518e9bb062d6a.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

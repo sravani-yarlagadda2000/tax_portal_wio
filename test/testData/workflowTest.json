@@ -1,0 +1,21 @@
+{
+    "scenario01": "CreateTrackerWorkflow",
+    "trackerWorkflow": {
+      "workflowName": "Workflow",
+      "module": "TestingOnly",
+      "location":"United States",
+      "masterObligation":"0309 MO",
+      "firstTaskName":"Checklist task 01",
+      "firstTaskDescription":"Gather Trackers",
+      "firstTaskPercentage":"100",
+      "firstTaskDueDate":"-9",
+      "milestoneVal":"Approve Documents",
+      "firstRowTaskType":"Task",
+      "selectRoleGrid":"",
+      "selectRoleFirstRow":"Approver",
+      "selectReviewerRole":"Approver"
+       
+    }
+    
+  
+  }

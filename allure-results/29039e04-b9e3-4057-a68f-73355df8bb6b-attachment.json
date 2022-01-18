@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='k-grid-table-wrap']//tr[1]//td[2]"
+}

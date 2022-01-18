@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//table[@class=\"k-grid-table\"]//tr[3]/td[1]/input"
+}

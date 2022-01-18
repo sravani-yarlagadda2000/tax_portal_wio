@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//li[@role='option'])[contains(text(),'Approver')]\"}\n  (Session info: chrome=96.0.4664.110)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00E26903+2517251]\n\tOrdinal0 [0x00DBF8E1+2095329]\n\tOrdinal0 [0x00CC2848+1058888]\n\tOrdinal0 [0x00CED448+1233992]\n\tOrdinal0 [0x00CED63B+1234491]\n\tOrdinal0 [0x00D17812+1406994]\n\tOrdinal0 [0x00D0650A+1336586]\n\tOrdinal0 [0x00D15BBF+1399743]\n\tOrdinal0 [0x00D0639B+1336219]\n\tOrdinal0 [0x00CE27A7+1189799]\n\tOrdinal0 [0x00CE3609+1193481]\n\tGetHandleVerifier [0x00FB5904+1577972]\n\tGetHandleVerifier [0x01060B97+2279047]\n\tGetHandleVerifier [0x00EB6D09+534521]\n\tGetHandleVerifier [0x00EB5DB9+530601]\n\tOrdinal0 [0x00DC4FF9+2117625]\n\tOrdinal0 [0x00DC98A8+2136232]\n\tOrdinal0 [0x00DC99E2+2136546]\n\tOrdinal0 [0x00DD3541+2176321]\n\tBaseThreadInitThunk [0x75ACFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77177A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77177A6E+238]\n"
+}

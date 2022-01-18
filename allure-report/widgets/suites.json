@@ -1,8 +1,30 @@
 {
-  "total" : 2,
+  "total" : 4,
   "items" : [ {
-    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
-    "name" : "My Login application",
+    "uid" : "dc518256e0c00037839741b95830bcc6",
+    "name" : "Login application",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d6a8696daeb1d33a8ed7cf7d6562ad1c",
+    "name" : "Workflow Scenarios",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "92d0688a9f9dbe36d871d52b92eba0db",
+    "name" : "workflow Page ",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +34,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "92d0688a9f9dbe36d871d52b92eba0db",
-    "name" : "workflow Page ",
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
+    "name" : "My Login application",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

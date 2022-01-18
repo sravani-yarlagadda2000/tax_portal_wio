@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//div[@class='select2-result-label'])[contains(text(),'Germany')]"
+}

@@ -1,0 +1,174 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "50c2a62a097c749b4c1cfd7b718d3add",
+            "elementId": "05175c8a-5ba7-4532-ac8c-cda195fb5fff",
+            "element-6066-11e4-a52e-4f735466cecf": "05175c8a-5ba7-4532-ac8c-cda195fb5fff",
+            "selector": "(//div[@class='k-grid-aria-root']//tr[1])[2]//td[8]",
+            "parent": {
+              "sessionId": "50c2a62a097c749b4c1cfd7b718d3add",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "97.0.4692.71",
+                "chrome": {
+                  "chromedriverVersion": "96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})",
+                  "userDataDir": "C:\\Users\\ANJALM~1\\AppData\\Local\\Temp\\scoped_dir19504_1721213258"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:62440"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "windows",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./test/specs/**/loginTest.js"
+                ],
+                "suites": {
+                  "elements": [
+                    [
+                      "./test/specs/elements/loginTest.js",
+                      "./test/specs/elements/WorkflowTest.js"
+                    ]
+                  ]
+                },
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "mocha",
+                "reporters": [
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results",
+                      "disableWebdriverScreenshotsReporting": false
+                    }
+                  ]
+                ],
+                "services": [
+                  "chromedriver"
+                ],
+                "maxInstances": 1,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 120000,
+                  "ui": "bdd"
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [
+                  null
+                ],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [
+                  null
+                ],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://devopssaas-qa.apps.tax/",
+                "_": [
+                  "wdio.conf.js"
+                ],
+                "suite": [
+                  "elements"
+                ],
+                "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

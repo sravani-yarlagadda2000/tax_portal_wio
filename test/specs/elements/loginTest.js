@@ -7,19 +7,19 @@ let logintesdata=JSON.parse(fs.readFileSync('test/testData/loginTest.json'))
 
 
 
-describe('My Login application', function() {
+describe('Login application', function() {
 
     logintesdata.forEach(({applicatioUrl,username,password,client,module,location })=> {
         
     
-    it('should login with valid credentials', async function() {
+    it('Login Test', async function() {
 
         await loginPage.launchUrl(applicatioUrl);
         await  browser.pause(5000);
         await browser.maximizeWindow();
         await loginPage.Login(username,password);
-         const isDisplayed = await $("#relatedInformationViewToolbar .ng-binding").isDisplayed();
-         await  browser.pause(5000);
+        const isDisplayed = await $("#relatedInformationViewToolbar .ng-binding").isDisplayed();
+        await  browser.pause(5000);
          expectChai(isDisplayed).to.equal(true); // Chai assertion
          await basePage.acceptCookiePopupInPage();
          await basePage.switchClient();     
@@ -33,10 +33,7 @@ describe('My Login application', function() {
          await basePage.chooseLocationFromFilters(location);
          await browser.pause(5000);
 
-         
-
-   
-     });
+        });
 
 });
 

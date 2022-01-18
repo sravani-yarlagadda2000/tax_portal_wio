@@ -1,0 +1,216 @@
+{
+  "uid" : "b2f8ce0bc3caf671",
+  "name" : "Create Workflow",
+  "fullName" : "Workflow Scenarios.Create Workflow",
+  "historyId" : "e572bccb97afd99c5a8b4af66139f324",
+  "time" : {
+    "start" : 1642508892128,
+    "stop" : 1642508901654,
+    "duration" : 9526
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a ng-href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\" class=\"ng-binding\" href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\">...</a> is not clickable at point (878, 22). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n                  (Session info: chrome=97.0.4692.71)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00466903+2517251]\n                \tOrdinal0 [0x003FF8E1+2095329]\n                \tOrdinal0 [0x00302848+1058888]\n                \tOrdinal0 [0x00333509+1258761]\n                \tOrdinal0 [0x00331868+1251432]\n                \tOrdinal0 [0x0032F65D+1242717]\n                \tOrdinal0 [0x0032E4A8+1238184]\n                \tOrdinal0 [0x00324037+1196087]\n                \tOrdinal0 [0x003464D3+1336531]\n                \tOrdinal0 [0x00323A36+1194550]\n                \tOrdinal0 [0x003465BA+1336762]\n                \tOrdinal0 [0x00355BBF+1399743]\n                \tOrdinal0 [0x0034639B+1336219]\n                \tOrdinal0 [0x003227A7+1189799]\n                \tOrdinal0 [0x00323609+1193481]\n                \tGetHandleVerifier [0x005F5904+1577972]\n                \tGetHandleVerifier [0x006A0B97+2279047]\n                \tGetHandleVerifier [0x004F6D09+534521]\n                \tGetHandleVerifier [0x004F5DB9+530601]\n                \tOrdinal0 [0x00404FF9+2117625]\n                \tOrdinal0 [0x004098A8+2136232]\n                \tOrdinal0 [0x004099E2+2136546]\n                \tOrdinal0 [0x00413541+2176321]\n                \tBaseThreadInitThunk [0x763AFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77A37A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77A37A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a ng-href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\" class=\"ng-binding\" href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\">...</a> is not clickable at point (878, 22). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n                  (Session info: chrome=97.0.4692.71)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00466903+2517251]\n                \tOrdinal0 [0x003FF8E1+2095329]\n                \tOrdinal0 [0x00302848+1058888]\n                \tOrdinal0 [0x00333509+1258761]\n                \tOrdinal0 [0x00331868+1251432]\n                \tOrdinal0 [0x0032F65D+1242717]\n                \tOrdinal0 [0x0032E4A8+1238184]\n                \tOrdinal0 [0x00324037+1196087]\n                \tOrdinal0 [0x003464D3+1336531]\n                \tOrdinal0 [0x00323A36+1194550]\n                \tOrdinal0 [0x003465BA+1336762]\n                \tOrdinal0 [0x00355BBF+1399743]\n                \tOrdinal0 [0x0034639B+1336219]\n                \tOrdinal0 [0x003227A7+1189799]\n                \tOrdinal0 [0x00323609+1193481]\n                \tGetHandleVerifier [0x005F5904+1577972]\n                \tGetHandleVerifier [0x006A0B97+2279047]\n                \tGetHandleVerifier [0x004F6D09+534521]\n                \tGetHandleVerifier [0x004F5DB9+530601]\n                \tOrdinal0 [0x00404FF9+2117625]\n                \tOrdinal0 [0x004098A8+2136232]\n                \tOrdinal0 [0x004099E2+2136546]\n                \tOrdinal0 [0x00413541+2176321]\n                \tBaseThreadInitThunk [0x763AFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77A37A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77A37A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642508897142,
+        "stop" : 1642508897176,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e7aac3fc5060ea6",
+        "name" : "Request",
+        "source" : "7e7aac3fc5060ea6.json",
+        "type" : "application/json",
+        "size" : 105
+      }, {
+        "uid" : "f4d52ccec5011296",
+        "name" : "Response",
+        "source" : "f4d52ccec5011296.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8a027ec4-4023-4a1e-a175-5924c2545efb/click",
+      "time" : {
+        "start" : 1642508897179,
+        "stop" : 1642508901654,
+        "duration" : 4475
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x00466903+2517251]\n                \tOrdinal0 [0x003FF8E1+2095329]\n                \tOrdinal0 [0x00302848+1058888]\n                \tOrdinal0 [0x00333509+1258761]\n                \tOrdinal0 [0x00331868+1251432]\n                \tOrdinal0 [0x0032F65D+1242717]\n                \tOrdinal0 [0x0032E4A8+1238184]\n                \tOrdinal0 [0x00324037+1196087]\n                \tOrdinal0 [0x003464D3+1336531]\n                \tOrdinal0 [0x00323A36+1194550]\n                \tOrdinal0 [0x003465BA+1336762]\n                \tOrdinal0 [0x00355BBF+1399743]\n                \tOrdinal0 [0x0034639B+1336219]\n                \tOrdinal0 [0x003227A7+1189799]\n                \tOrdinal0 [0x00323609+1193481]\n                \tGetHandleVerifier [0x005F5904+1577972]\n                \tGetHandleVerifier [0x006A0B97+2279047]\n                \tGetHandleVerifier [0x004F6D09+534521]\n                \tGetHandleVerifier [0x004F5DB9+530601]\n                \tOrdinal0 [0x00404FF9+2117625]\n                \tOrdinal0 [0x004098A8+2136232]\n                \tOrdinal0 [0x004099E2+2136546]\n                \tOrdinal0 [0x00413541+2176321]\n                \tBaseThreadInitThunk [0x763AFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77A37A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77A37A6E+238]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1642508901480,
+          "stop" : 1642508901654,
+          "duration" : 174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8ab63b659f9cb8ef",
+          "name" : "Screenshot",
+          "source" : "8ab63b659f9cb8ef.png",
+          "type" : "image/png",
+          "size" : 193941
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Workflow Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "Workflow Scenarios"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create Workflow"
+  }, {
+    "name" : "package",
+    "value" : "Workflow Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96206e8b1631ebda",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a ng-href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\" class=\"ng-binding\" href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\">...</a> is not clickable at point (878, 22). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n                  (Session info: chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642492241270,
+        "stop" : 1642492250704,
+        "duration" : 9434
+      }
+    }, {
+      "uid" : "ecfc54b4391b5add",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 120000ms exceeded. The execution in the test \"Workflow Scenarios Create Workflow\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\anjalmishra\\Documents\\SourceControl\\tax_portal_wio\\tax_portal_wio\\test\\specs\\elements\\WorkflowTest.js)",
+      "time" : {
+        "start" : 1642490524498,
+        "stop" : 1642490644512,
+        "duration" : 120014
+      }
+    }, {
+      "uid" : "97f57fbab8c32fe",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[contains(@href,\"workflow\") and contains(text(),\"Workflows\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1642490366306,
+        "stop" : 1642490381581,
+        "duration" : 15275
+      }
+    }, {
+      "uid" : "8baaeb9dc465716f",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[contains(@href,\"workflow\") and contains(text(),\"Workflows\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1642488502230,
+        "stop" : 1642488590108,
+        "duration" : 87878
+      }
+    }, {
+      "uid" : "c7188552410803fa",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642488282691,
+        "stop" : 1642488359165,
+        "duration" : 76474
+      }
+    }, {
+      "uid" : "3cf02747db0534bd",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 120000ms exceeded. The execution in the test \"Workflow Scenarios Create Workflow\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\anjalmishra\\Documents\\SourceControl\\tax_portal_wio\\tax_portal_wio\\test\\specs\\elements\\WorkflowTest.js)",
+      "time" : {
+        "start" : 1642487588811,
+        "stop" : 1642487708815,
+        "duration" : 120004
+      }
+    }, {
+      "uid" : "1d367c9fc8e81114",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 120000ms exceeded. The execution in the test \"Workflow Scenarios Create Workflow\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\anjalmishra\\Documents\\SourceControl\\tax_portal_wio\\tax_portal_wio\\test\\specs\\elements\\WorkflowTest.js)",
+      "time" : {
+        "start" : 1642485934177,
+        "stop" : 1642486054184,
+        "duration" : 120007
+      }
+    }, {
+      "uid" : "2fa8ddf2c04e5784",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a ng-href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\" class=\"ng-binding\" href=\"https://devopssaas2-qa.apps.tax/?redirectPage=workflow\">...</a> is not clickable at point (878, 22). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n                  (Session info: chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642423867450,
+        "stop" : 1642423876946,
+        "duration" : 9496
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2f8ce0bc3caf671.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

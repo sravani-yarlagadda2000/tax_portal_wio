@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641884895471' stop='1641884945923'>
+    <name>Workflow Scenarios</name>
+    <title>Workflow Scenarios</title>
+    <test-cases>
+        <test-case start='1641884895472' status='broken' stop='1641884945923'>
+            <name>Create Workflow</name>
+            <title>Create Workflow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1641884900487' status='passed' stop='1641884900538'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a75d42f6-d187-497e-874a-cabca632d85a-attachment.json' type='application/json' size='105'/>
+                        <attachment title='Response' source='bf1b459f-5fbf-44c1-aaa1-6277040e58a7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641884900542' status='passed' stop='1641884914094'>
+                    <name>POST /session/:sessionId/element/24a888b9-9c59-4850-a9cb-d086b2f35049/click</name>
+                    <title>POST /session/:sessionId/element/24a888b9-9c59-4850-a9cb-d086b2f35049/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1641884944104' status='passed' stop='1641884944348'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aebc7ff3-d0f6-4124-b9a1-439a355acd5c-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='eea226f2-01b7-4a76-a174-3beb86ef1706-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641884944349' status='broken' stop='1641884945922'>
+                    <name>POST /session/:sessionId/element/7b7e0e5c-6249-4d82-bc0a-0cdc2d558e05/click</name>
+                    <title>POST /session/:sessionId/element/7b7e0e5c-6249-4d82-bc0a-0cdc2d558e05/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1641884945536' status='passed' stop='1641884945919'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='538f61a1-0ccb-4e82-bc37-61a51c038bb7-attachment.png' type='image/png' size='164371'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00E26903+2517251]
+                	Ordinal0 [0x00DBF8E1+2095329]
+                	Ordinal0 [0x00CC2710+1058576]
+                	Ordinal0 [0x00CEE324+1237796]
+                	Ordinal0 [0x00CE4037+1196087]
+                	Ordinal0 [0x00D064D3+1336531]
+                	Ordinal0 [0x00CE3A36+1194550]
+                	Ordinal0 [0x00D065BA+1336762]
+                	Ordinal0 [0x00D15BBF+1399743]
+                	Ordinal0 [0x00D0639B+1336219]
+                	Ordinal0 [0x00CE27A7+1189799]
+                	Ordinal0 [0x00CE3609+1193481]
+                	GetHandleVerifier [0x00FB5904+1577972]
+                	GetHandleVerifier [0x01060B97+2279047]
+                	GetHandleVerifier [0x00EB6D09+534521]
+                	GetHandleVerifier [0x00EB5DB9+530601]
+                	Ordinal0 [0x00DC4FF9+2117625]
+                	Ordinal0 [0x00DC98A8+2136232]
+                	Ordinal0 [0x00DC99E2+2136546]
+                	Ordinal0 [0x00DD3541+2176321]
+                	BaseThreadInitThunk [0x75ACFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77177A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77177A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
