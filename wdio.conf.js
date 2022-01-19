@@ -30,7 +30,7 @@ exports.config = {
        elements :[
 
          //  './test/elements/*.js'
-           [ './test/specs/elements/loginTest.js', './test/specs/elements/WorkflowTest.js']
+           [ './test/specs/elements/loginTest.js', './test/specs/elements/WorkflowTest.js','./test/specs/elements/DataMgmtTest.js']
 
         ]
 

@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642604819294' stop='1642604845855'>
+    <name>Data Mgmt Test</name>
+    <title>Data Mgmt Test</title>
+    <test-cases>
+        <test-case start='1642604819294' status='broken' stop='1642604845855'>
+            <name>Create Context Test</name>
+            <title>Create Context Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642604819295' status='passed' stop='1642604819313'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='853fc8a3-93e5-46f6-87fb-b3e2ab834ecf-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='ae223ec7-c7ec-4c89-84bf-8e19c7ad9f04-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642604819316' status='passed' stop='1642604825050'>
+                    <name>POST /session/:sessionId/element/160b4ce0-01e3-43cd-8ae0-cd074377c18d/click</name>
+                    <title>POST /session/:sessionId/element/160b4ce0-01e3-43cd-8ae0-cd074377c18d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642604835066' status='passed' stop='1642604835103'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6bcd523f-2ded-4374-aeb4-282dfaa882b0-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='c514acae-8885-4120-af20-bce9d62ebe6c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642604835106' status='passed' stop='1642604835215'>
+                    <name>POST /session/:sessionId/element/ea8a09f3-24d4-41d0-b2df-17ce39b2ab40/click</name>
+                    <title>POST /session/:sessionId/element/ea8a09f3-24d4-41d0-b2df-17ce39b2ab40/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642604835216' status='passed' stop='1642604835257'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e90f089a-e3cb-4594-b32c-60d688b3ad9f-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='2d9d9350-4353-4a17-ad77-dba196f3b814-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642604835260' status='passed' stop='1642604835360'>
+                    <name>POST /session/:sessionId/element/ea8a09f3-24d4-41d0-b2df-17ce39b2ab40/click</name>
+                    <title>POST /session/:sessionId/element/ea8a09f3-24d4-41d0-b2df-17ce39b2ab40/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642604835360' status='passed' stop='1642604835377'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c9f8717-730f-4561-858b-cba5119f39f5-attachment.json' type='application/json' size='94'/>
+                        <attachment title='Response' source='c7c7b853-3fd7-4998-acad-71003f86d8c5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642604835379' status='passed' stop='1642604835497'>
+                    <name>POST /session/:sessionId/element/ea8a09f3-24d4-41d0-b2df-17ce39b2ab40/click</name>
+                    <title>POST /session/:sessionId/element/ea8a09f3-24d4-41d0-b2df-17ce39b2ab40/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642604845511' status='broken' stop='1642604845855'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642604845512' status='passed' stop='1642604845845'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='92075f6a-98f0-4442-9013-554e57d576ff-attachment.json' type='application/json' size='84'/>
+                                <attachment title='Screenshot' source='45a85108-e737-4483-a35d-c8fd445bc840-attachment.png' type='image/png' size='68472'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>dataMgmtPage.clickOnDataContextMgmt is not a function</message>
+                <stack-trace>TypeError: dataMgmtPage.clickOnDataContextMgmt is not a function
+                    at Context.&lt;anonymous> (C:\Users\anjalmishra\Documents\SourceControl\tax_portal_wio\tax_portal_wio\test\specs\elements\/DataMgmtTest.js:26:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
