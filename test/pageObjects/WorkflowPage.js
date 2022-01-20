@@ -337,10 +337,10 @@ class WorkflowPage{
         await browser.pause(5000);
 
     }
-    //async ExpectWorkflowGridDisplayed () { }
+    
     
     
     }
     
-    //export default new WorkflowPage()
+    
     module.exports = new WorkflowPage();

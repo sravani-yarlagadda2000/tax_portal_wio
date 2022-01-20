@@ -2,7 +2,7 @@ const BasePage = require("./BasePage")
 
 class LoginPage{
 
-//userName=$("input[name='userName']")
+
 
 get multiTenancyMicrosoftLoginUsername()
 {
