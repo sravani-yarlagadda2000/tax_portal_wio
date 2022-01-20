@@ -7,22 +7,9 @@
 describe('My Login application', function() {
     it('should login with valid credentials', async function() {
 
-       await  browser.url('https://devopssaas-qa.apps.tax/');
-     
-        // receive url
-       // console.log(browser.getUrl());
-       await  browser.pause(5000);
-       
-       await browser.maximizeWindow();
-
-   
-    
-    //     const elem =  $("//li[@class='active']/a[@href='/Home']")
-    //    // const elem = $('#elem')
-    //     elem.waitForClickable({ timeout: 60000 });
-    //     console.log("trying to click on registry ");
-        
-    //     elem.click()
+     await  browser.url('https://devopssaas-qa.apps.tax/');
+     await  browser.pause(5000);
+     await browser.maximizeWindow();
      const  multiTenancyMicrosoftLoginUsername=await  $("//input[@name='loginfmt']")
      const multiTenancyMicrosoftLoginPassword = $("//input[@name='Password']");
      const deloitteSignInButton = $(".//span[@class='submit']");
