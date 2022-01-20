@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@role=\"grid\"]//kendo-grid-list"
+}

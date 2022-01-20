@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642675003979' stop='1642675142967'>
+    <name>Workflow Scenarios</name>
+    <title>Workflow Scenarios</title>
+    <test-cases>
+        <test-case start='1642675003979' status='broken' stop='1642675142965'>
+            <name>Create Workflow</name>
+            <title>Create Workflow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642675008981' status='passed' stop='1642675009003'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='10d42466-015c-4e40-b9c5-4c609afe83ce-attachment.json' type='application/json' size='105'/>
+                        <attachment title='Response' source='38835de2-eb7e-43df-97c7-bff1e3ed6ab4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642675009007' status='passed' stop='1642675015374'>
+                    <name>POST /session/:sessionId/element/fa1d688c-844a-4366-9f18-6bff983e1d0d/click</name>
+                    <title>POST /session/:sessionId/element/fa1d688c-844a-4366-9f18-6bff983e1d0d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642675045390' status='broken' stop='1642675142965'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='97dff728-99a6-4f04-b445-3620ca3bc711-attachment.json' type='application/json' size='94'/>
+                    </attachments>
+                    <steps>
+                        <step start='1642675094199' status='broken' stop='1642675142965'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00E36903+2517251]
+                	Ordinal0 [0x00DCF8E1+2095329]
+                	Ordinal0 [0x00CD2710+1058576]
+                	Ordinal0 [0x00CC76A4+1013412]
+                	Ordinal0 [0x00CC7EA8+1015464]
+                	Ordinal0 [0x00CC9695+1021589]
+                	Ordinal0 [0x00CC3686+996998]
+                	Ordinal0 [0x00CD3A60+1063520]
+                	Ordinal0 [0x00D25382+1397634]
+                	Ordinal0 [0x00D1639B+1336219]
+                	Ordinal0 [0x00CF27A7+1189799]
+                	Ordinal0 [0x00CF3609+1193481]
+                	GetHandleVerifier [0x00FC5904+1577972]
+                	GetHandleVerifier [0x01070B97+2279047]
+                	GetHandleVerifier [0x00EC6D09+534521]
+                	GetHandleVerifier [0x00EC5DB9+530601]
+                	Ordinal0 [0x00DD4FF9+2117625]
+                	Ordinal0 [0x00DD98A8+2136232]
+                	Ordinal0 [0x00DD99E2+2136546]
+                	Ordinal0 [0x00DE3541+2176321]
+                	BaseThreadInitThunk [0x760CFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77577A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77577A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

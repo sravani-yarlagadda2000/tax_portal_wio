@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "kendo-multiselect[formcontrolname=\"reviewerRoleTypes\"] input"
+}

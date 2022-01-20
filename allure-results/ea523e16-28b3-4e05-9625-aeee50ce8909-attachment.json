@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//label[contains(text(),'Master Obligations')]//parent::div//kendo-searchbar[@class='k-searchbar']//input"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//ul[@role=\"listbox\"]//li[text()=\"Core Tax Topics\"]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//ul[@role=\"menubar\"]//li//span[@role=\"presentation\" and contains(@class,\"k-icon\")]"
+}
